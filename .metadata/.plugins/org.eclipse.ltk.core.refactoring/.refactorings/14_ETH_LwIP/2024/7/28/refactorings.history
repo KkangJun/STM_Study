@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">&#x0A;<refactoring comment="Rename resource &apos;14_ETH_LwIP/13a_MP3_Player.ioc&apos; to &apos;14_ETH_LwIP.ioc&apos;" description="Rename resource &apos;13a_MP3_Player.ioc&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="13a_MP3_Player.ioc" name="14_ETH_LwIP.ioc" stamp="1720402932277" updateReferences="true"/>&#x0A;<refactoring comment="Rename resource &apos;14_ETH_LwIP/Debug/13a_MP3_Player.elf&apos; to &apos;14_ETH_LwIP.elf&apos;" description="Rename resource &apos;13a_MP3_Player.elf&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="Debug/13a_MP3_Player.elf" name="14_ETH_LwIP.elf" stamp="1720402942257" updateReferences="true"/>
+</session>

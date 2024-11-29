@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">&#x0A;<refactoring comment="Rename resource &apos;12_SPI/Debug/11_I2C.elf&apos; to &apos;12_SPI.elf&apos;" description="Rename resource &apos;11_I2C.elf&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="Debug/11_I2C.elf" name="12_SPI.elf" stamp="1719884019510" updateReferences="true"/>&#x0A;<refactoring comment="Rename resource &apos;12_SPI/11_I2C.ioc&apos; to &apos;12_SPI.ioc&apos;" description="Rename resource &apos;11_I2C.ioc&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="11_I2C.ioc" name="12_SPI.ioc" stamp="1719884024811" updateReferences="true"/>
+</session>

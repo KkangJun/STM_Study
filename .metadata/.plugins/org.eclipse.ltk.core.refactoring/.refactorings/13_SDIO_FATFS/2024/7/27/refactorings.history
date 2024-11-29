@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">&#x0A;<refactoring comment="Rename resource &apos;13_SDIO_FATFS/12_SPI.ioc&apos; to &apos;13_SDIO_FATFS.ioc&apos;" description="Rename resource &apos;12_SPI.ioc&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="12_SPI.ioc" name="13_SDIO_FATFS.ioc" stamp="1719903010290" updateReferences="true"/>&#x0A;<refactoring comment="Rename resource &apos;13_SDIO_FATFS/Debug/12_SPI.elf&apos; to &apos;13_SDIO_FATFS.elf&apos;" description="Rename resource &apos;12_SPI.elf&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="Debug/12_SPI.elf" name="13_SDIO_FATFS.elf" stamp="1719903024800" updateReferences="true"/>
+</session>

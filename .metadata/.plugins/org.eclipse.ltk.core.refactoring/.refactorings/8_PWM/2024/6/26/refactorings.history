@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">&#x0A;<refactoring comment="Rename resource &apos;8_PWM/Debug/7_EXTI.elf&apos; to &apos;8_PWM.elf&apos;" description="Rename resource &apos;7_EXTI.elf&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="Debug/7_EXTI.elf" name="8_PWM.elf" stamp="1719368811384" updateReferences="true"/>&#x0A;<refactoring comment="Rename resource &apos;8_PWM/7_EXTI.ioc&apos; to &apos;8_PWM.ioc&apos;" description="Rename resource &apos;7_EXTI.ioc&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="7_EXTI.ioc" name="8_PWM.ioc" stamp="1719368823503" updateReferences="true"/>
+</session>

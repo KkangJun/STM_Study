@@ -1,0 +1,10 @@
+10:44:41 **** Incremental Build of configuration Debug for project 6_TIMER ****
+make -j16 all 
+arm-none-eabi-size   6_TIMER.elf 
+   text	   data	    bss	    dec	    hex	filename
+  31532	    576	   2048	  34156	   856c	6_TIMER.elf
+Finished building: default.size.stdout
+ 
+
+10:44:41 Build Finished. 0 errors, 0 warnings. (took 200ms)
+

@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">&#x0A;<refactoring comment="Rename resource &apos;13a_MP3_Player/13_SDIO_FATFS.ioc&apos; to &apos;13a_MP3_Player.ioc&apos;" description="Rename resource &apos;13_SDIO_FATFS.ioc&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="13_SDIO_FATFS.ioc" name="13a_MP3_Player.ioc" stamp="1720054928395" updateReferences="true"/>&#x0A;<refactoring comment="Rename resource &apos;13a_MP3_Player/Debug/13_SDIO_FATFS.elf&apos; to &apos;13a_MP3_Player.elf&apos;" description="Rename resource &apos;13_SDIO_FATFS.elf&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="Debug/13_SDIO_FATFS.elf" name="13a_MP3_Player.elf" stamp="1720054939597" updateReferences="true"/>
+</session>

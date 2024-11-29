@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">&#x0A;<refactoring comment="Rename resource &apos;5_LCD/4_UART_INTERRUPT.ioc&apos; to &apos;5_LCD.ioc&apos;" description="Rename resource &apos;4_UART_INTERRUPT.ioc&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="4_UART_INTERRUPT.ioc" name="5_LCD.ioc" stamp="1719294161094" updateReferences="true"/>&#x0A;<refactoring comment="Rename resource &apos;5_LCD/Debug/4_UART_INTERRUPT.elf&apos; to &apos;5_LCD.elf&apos;" description="Rename resource &apos;4_UART_INTERRUPT.elf&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="Debug/4_UART_INTERRUPT.elf" name="5_LCD.elf" stamp="1719294168241" updateReferences="true"/>
+</session>

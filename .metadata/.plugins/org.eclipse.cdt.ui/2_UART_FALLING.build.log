@@ -1,0 +1,17 @@
+11:25:31 **** Incremental Build of configuration Debug for project 2_UART_FALLING ****
+make -j16 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F407xx -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+arm-none-eabi-gcc -o "2_UART_FALLING.elf" @"objects.list"   -mcpu=cortex-m4 -T"C:\Users\KkangJun\Desktop\STMStudy\2_UART_FALLING\STM32F407VETX_FLASH.ld" --specs=nosys.specs -Wl,-Map="2_UART_FALLING.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: 2_UART_FALLING.elf
+ 
+arm-none-eabi-size   2_UART_FALLING.elf 
+arm-none-eabi-objdump -h -S  2_UART_FALLING.elf  > "2_UART_FALLING.list"
+   text	   data	    bss	    dec	    hex	filename
+   8788	     20	   1636	  10444	   28cc	2_UART_FALLING.elf
+Finished building: default.size.stdout
+ 
+Finished building: 2_UART_FALLING.list
+ 
+
+11:25:32 Build Finished. 0 errors, 0 warnings. (took 1s.387ms)
+

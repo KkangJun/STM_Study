@@ -1,0 +1,10 @@
+15:32:24 **** Build of configuration Debug for project 4_UART_INTERRUPT ****
+make -j16 all 
+arm-none-eabi-size   4_UART_INTERRUPT.elf 
+   text	   data	    bss	    dec	    hex	filename
+  25836	    576	   1976	  28388	   6ee4	4_UART_INTERRUPT.elf
+Finished building: default.size.stdout
+ 
+
+15:32:24 Build Finished. 0 errors, 0 warnings. (took 205ms)
+

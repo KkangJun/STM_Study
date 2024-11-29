@@ -1,0 +1,16 @@
+1719276015519	Delete 10 resources
+1719279366728	Delete resource '2_UART_FALLING/1_GPIO Debug.launch'
+1719282729520	Delete resource '3_UART_PRINTF/2_UART_FALLING Debug.launch'
+1719284606987	Delete resource '4_UART_INT'
+1719284694784	Delete resource '4_UART_INTERRUPT/3_UART_PRINTF Debug.launch'
+1719294163670	Delete resource '5_LCD/4_UART_INTERRUPT Debug.launch'
+1719363025095	Delete resource '6_TIMER/5_LCD Debug.launch'
+1719363037412	Delete 10 resources
+1719363058675	Delete 2 resources
+1719363068036	Delete 4 resources
+1719363074661	Delete 6 resources
+1719363081005	Delete 8 resources
+1719366386013	Delete resource '7_EXTI/6_TIMER Debug.launch'
+1719366393715	Delete 2 resources
+1719368816632	Delete 2 resources
+1719368825603	Delete resource '8_PWM/7_EXTI Debug.launch'

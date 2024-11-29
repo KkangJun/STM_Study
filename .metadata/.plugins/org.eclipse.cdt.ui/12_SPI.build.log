@@ -1,0 +1,91 @@
+12:08:05 **** Incremental Build of configuration Debug for project 12_SPI ****
+make -j16 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F407xx -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+../Core/Src/main.c: In function '_write':
+../Core/Src/main.c:88:36: warning: pointer targets in passing argument 2 of 'HAL_UART_Transmit' differ in signedness [-Wpointer-sign]
+   88 |         HAL_UART_Transmit(&huart3, p, len, 10);
+      |                                    ^
+      |                                    |
+      |                                    char *
+In file included from ../Core/Inc/stm32f4xx_hal_conf.h:411,
+                 from ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal.h:29,
+                 from ../Core/Inc/main.h:30,
+                 from ../Core/Src/main.c:20:
+../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_uart.h:722:79: note: expected 'const uint8_t *' {aka 'const unsigned char *'} but argument is of type 'char *'
+  722 | HAL_StatusTypeDef HAL_UART_Transmit(UART_HandleTypeDef *huart, const uint8_t *pData, uint16_t Size, uint32_t Timeout);
+      |                                                                ~~~~~~~~~~~~~~~^~~~~
+../Core/Src/main.c: In function 'HAL_TIM_PeriodElapsedCallback':
+../Core/Src/main.c:110:30: warning: unused variable 'cnt' [-Wunused-variable]
+  110 |         static unsigned char cnt = 0;
+      |                              ^~~
+../Core/Src/main.c: In function 'main':
+../Core/Src/main.c:222:25: warning: pointer targets in passing argument 3 of 'CLCD_Puts' differ in signedness [-Wpointer-sign]
+  222 |         CLCD_Puts(0, 0, "Welcome to");
+      |                         ^~~~~~~~~~~~
+      |                         |
+      |                         char *
+In file included from ../Core/Src/main.c:26:
+../Core/Inc/CLCD.h:57:65: note: expected 'unsigned char *' but argument is of type 'char *'
+   57 | void CLCD_Puts(unsigned char x, unsigned char y, unsigned char *str);
+      |                                                  ~~~~~~~~~~~~~~~^~~
+../Core/Src/main.c:223:25: warning: pointer targets in passing argument 3 of 'CLCD_Puts' differ in signedness [-Wpointer-sign]
+  223 |         CLCD_Puts(0, 1, "Kkang Home");
+      |                         ^~~~~~~~~~~~
+      |                         |
+      |                         char *
+In file included from ../Core/Src/main.c:26:
+../Core/Inc/CLCD.h:57:65: note: expected 'unsigned char *' but argument is of type 'char *'
+   57 | void CLCD_Puts(unsigned char x, unsigned char y, unsigned char *str);
+      |                                                  ~~~~~~~~~~~~~~~^~~
+../Core/Src/main.c:265:50: warning: passing argument 1 of 'VS1003_WriteData' discards 'const' qualifier from pointer target type [-Wdiscarded-qualifiers]
+  265 |                                 VS1003_WriteData(&MP3_DATA[i]);
+      |                                                  ^~~~~~~~~~~~
+In file included from ../Core/Src/main.c:29:
+../Core/Inc/VS1003.h:92:34: note: expected 'uint8_t *' {aka 'unsigned char *'} but argument is of type 'const unsigned char *'
+   92 | void VS1003_WriteData( uint8_t * buf);
+      |                        ~~~~~~~~~~^~~
+../Core/Src/main.c:239:17: warning: unused variable 'eeprom' [-Wunused-variable]
+  239 |         uint8_t eeprom[10] = { 0x00, 0x11, 0x22, 0x33, 0x44, 0x55, 0x66, 0x77, 0x88,
+      |                 ^~~~~~
+../Core/Src/main.c:238:18: warning: unused variable 'dacval' [-Wunused-variable]
+  238 |         uint16_t dacval = 0;
+      |                  ^~~~~~
+../Core/Src/main.c:237:17: warning: unused variable 'ud_flag' [-Wunused-variable]
+  237 |         uint8_t ud_flag = 0;
+      |                 ^~~~~~~
+../Core/Src/main.c:236:18: warning: unused variable 'psc' [-Wunused-variable]
+  236 |         uint16_t psc = 1000;
+      |                  ^~~
+../Core/Src/main.c:235:18: warning: unused variable 'arr' [-Wunused-variable]
+  235 |         uint16_t arr = 1000;
+      |                  ^~~
+../Core/Src/main.c:234:18: warning: unused variable 'ccr' [-Wunused-variable]
+  234 |         uint16_t ccr = 0;
+      |                  ^~~
+../Core/Src/main.c:233:17: warning: unused variable 'str' [-Wunused-variable]
+  233 |         uint8_t str[20];
+      |                 ^~~
+../Core/Src/main.c:232:17: warning: unused variable 'a' [-Wunused-variable]
+  232 |         uint8_t a = 0;
+      |                 ^
+../Core/Src/main.c:147:27: warning: unused variable 'adcval' [-Wunused-variable]
+  147 |         volatile uint16_t adcval[4];
+      |                           ^~~~~~
+At top level:
+../Core/Src/main.c:110:30: warning: 'cnt' defined but not used [-Wunused-variable]
+  110 |         static unsigned char cnt = 0;
+      |                              ^~~
+arm-none-eabi-gcc -o "12_SPI.elf" @"objects.list"   -mcpu=cortex-m4 -T"C:\Users\KkangJun\Desktop\STMStudy\12_SPI\STM32F407VETX_FLASH.ld" --specs=nosys.specs -Wl,-Map="12_SPI.map" -Wl,--gc-sections -static -u _printf_float --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: 12_SPI.elf
+ 
+arm-none-eabi-size   12_SPI.elf 
+arm-none-eabi-objdump -h -S  12_SPI.elf  > "12_SPI.list"
+   text	   data	    bss	    dec	    hex	filename
+ 228956	    576	   2840	 232372	  38bb4	12_SPI.elf
+Finished building: default.size.stdout
+ 
+Finished building: 12_SPI.list
+ 
+
+12:08:05 Build Finished. 0 errors, 15 warnings. (took 798ms)
+
